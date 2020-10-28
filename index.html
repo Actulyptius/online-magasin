@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magasinet Oplev</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <div class="logo">
+                <a href=""><img src="img/logo.png" alt="Logo">
+                    <h2>Oplev</h2>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="byer/horsens/">Seneste</a></li>
+                <li><a href="byer/">Alle byer</a></li>
+                <li><a class="greyed-out" title="Ikke tilføjet endnu" href="">Om Oplev</a></li>
+            </ul>
+            <div class="burger" id="burger" onclick="navToggle()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <header class="banner">
+        <h1>Oplev</h1>
+    </header>
+
+    <div class="wrapper">
+        <main>
+            <section class="cities">
+                <h2>Seneste udgivelser</h2>
+                <div class="city-wrap">
+                    <a title="Oplev Horsens" href="byer/horsens/">
+                        <article class="city">
+                            <img src="img/horsens_720x360.png" alt="Skulptur foran Horsens Kunstmuseum">
+                            <h3>Horsens</h3>
+                        </article>
+                    </a>
+                    <a title="Ikke tilføjet endnu" href="#">
+                        <article class="city greyed-out">
+                            <img src="img/aarhus_720x360.png" alt="Aros i Aarhus">
+                            <h3>Aarhus</h3>
+                        </article>
+                    </a><a title="Ikke tilføjet endnu" href="#">
+                        <article class="city greyed-out">
+                            <img src="img/randers_720x360.png" alt="Randers Regnskov">
+                            <h3>Randers</h3>
+                        </article>
+                    </a>
+                    <a title="Ikke tilføjet endnu" href="#">
+                        <article class="city greyed-out">
+                            <img src="img/koebenhavn_720x360.png" alt="Havnegade i København">
+                            <h3>København</h3>
+                        </article>
+                    </a>
+                    <a title="Ikke tilføjet endnu" href="#">
+                        <article class="city greyed-out">
+                            <img src="img/vejle_720x360.png" alt="Bølgen i Vejle">
+                            <h3>Vejle</h3>
+                        </article>
+                    </a>
+                    <a title="Se alle byer" href="byer/">
+                        <div class="dots">
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <section class="introduction">
+                <h2>Seneste udgave</h2>
+                <div>
+                    <article>
+                        <h3>Horsens</h3>
+                        <p>
+                            I vores seneste udgave kan du læse om, og få inspiration til, hvad Horsens har at tilbyde af
+                            forskellige oplevelser. Som indhold kan du forvente inspiration til, hvordan du kan
+                            opleve byens historie, kultur og natur. Derudover vil der være anbefalinger fra os til
+                            forskellige restauranter og aktiviteter som vi mener er værd at bruge tid på.<br><br>
+
+                            Herunder er en oversigt over nogle af de oplevelser som du kan finde inspiration til i denne
+                            udgave af vores magasin.
+                        </p>
+                        <ul>
+                            <li>Museer</li>
+                            <li>Restauranter</li>
+                            <li>Naturoplevelser</li>
+                            <li>Bylivet</li>
+                        </ul>
+                        <p>
+                            Hvis der er en anden by som du kunne være interesseret i at opleve, så kan du finde en fuld
+                            oversigt over alle byer som vi har lavet en udgave over <a href="byer/">her</a>.
+                        </p>
+                    </article>
+
+                    <aside>
+                        <figure>
+                            <img src="img/bytorvet.jpg" alt="Horsens Bytorv">
+                            <figcaption>Bytorvet i Horsens.</figcaption>
+                        </figure>
+                    </aside>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <section class="footer-content">
+            <div>
+                <h4>Kontakt</h4>
+                <p>
+                    Magasinet Oplev<br>
+                    Ringvej Syd 104, 8260 Viby J<br>
+                    Telefon: 1234 5678<br>
+                    Mail: kontakt@oplev.dk<br>
+                </p>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
